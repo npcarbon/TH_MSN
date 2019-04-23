@@ -1,11 +1,11 @@
 @extends('adminlte::page')
 
-@section('title', 'AdminLTE')
+@section('title', 'TH MSN : หน้าแรก')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <img class="mb-4" src="images/logo.png" alt="" width="30%" style="margin-top: 100px;">
 @stop
 
 @section('content')
-    <p>You are logged in!</p>
+    <h1 style="font-weight: 900;color: #f9fafc;">Welcom to MM88TH Member System Network</h1>
 @stop

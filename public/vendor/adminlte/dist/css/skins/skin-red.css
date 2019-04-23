@@ -59,15 +59,15 @@
 .skin-red .wrapper,
 .skin-red .main-sidebar,
 .skin-red .left-side {
-  background-color: #222d32;
+  background-color: #252525;
 }
 .skin-red .user-panel > .info,
 .skin-red .user-panel > .info > a {
   color: #fff;
 }
 .skin-red .sidebar-menu > li.header {
-  color: #4b646f;
-  background: #1a2226;
+  color: #697073;
+  background: #151515;
 }
 .skin-red .sidebar-menu > li > a {
   border-left: 3px solid transparent;

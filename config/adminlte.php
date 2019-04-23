@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'TH MSN',
+    'title' => 'MM88TH MSN',
 
     'title_prefix' => '',
 
@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>TH MSN</b>',
+    'logo' => '<b>MM88TH MSN</b>',
 
     'logo_mini' => '<b>MSN</b>',
 
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'skin' => 'blue',
+    'skin' => 'red',
 
     /*
     |--------------------------------------------------------------------------
@@ -108,7 +108,68 @@ return [
     */
 
     'menu' => [
-        'MAIN NAVIGATION',
+        'รายงานผู้สมัครสมาชิค',
+        [
+            'text'    => 'ยอดผู้สมัครสมาชิค',
+            'icon_color' => 'red',
+            'submenu' => [
+                [
+                    'text' => 'สรุปยอดผู้สมัครรวม',
+                    'url'  => 'report/result-register',
+                    'icon' => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด MM88TH.COM',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด MM88TH.ORG',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด duballcup.com',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด duballhd.com',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด duballmobile.com',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด duballhdfree.com',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด LANDING PAGE',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด rakastep.com',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด steptaek.com',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+                [
+                    'text'        => 'สรุปยอด td-ball.com',
+                    'url'         => 'report/pages',
+                    'icon'        => 'file',
+                ],
+            ],
+        ],
         [
             'text' => 'Blog',
             'url'  => 'admin/blog',
@@ -132,44 +193,7 @@ return [
             'url'  => 'admin/settings',
             'icon' => 'lock',
         ],
-        [
-            'text'    => 'Multilevel',
-            'icon'    => 'share',
-            'submenu' => [
-                [
-                    'text' => 'Level One',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'Level One',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'Level Two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'Level Two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'Level Three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'Level Three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'Level One',
-                    'url'  => '#',
-                ],
-            ],
-        ],
+        
         'LABELS',
         [
             'text'       => 'Important',
