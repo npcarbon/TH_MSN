@@ -3,7 +3,7 @@
 @section('title', 'TH MSN : หน้าแรก')
 
 @section('content_header')
-<h1 style="font-weight: 900;color: #f9fafc;">ยอดผู้สมัคร เดือน </h1>
+<h1 style="font-weight: 900;color: #f9fafc;">ยอดผู้สมัครเว็บ MM88TH.COM</h1>
 @stop
 
 @section('content')
