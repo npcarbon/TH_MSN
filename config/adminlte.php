@@ -170,42 +170,48 @@ return [
                 ],
             ],
         ],
+        'ข้อมูลระบบ',
+            [
+                'text'        => 'ผู้ใช้งาน',
+                'url'         => 'users',
+                'icon' => 'user',
+            ],
+            [
+                'text' => 'เซียน',
+                'url'  => 'admin/settings',
+                'icon' => 'users',
+            ],
+            [
+                'text' => 'เว็บของเรา',
+                'url'  => 'admin/settings',
+                'icon' => 'file-text',
+            ],
+        'การจัดการระบบ',
         [
-            'text' => 'Blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
-        ],
-        [
-            'text'        => 'Pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'file',
-            'label'       => 4,
-            'label_color' => 'success',
-        ],
-        'ACCOUNT SETTINGS',
-        [
-            'text' => 'Profile',
+            'text' => 'รวมลิ้งค์',
             'url'  => 'admin/settings',
-            'icon' => 'user',
+            'icon' => 'link',
         ],
         [
-            'text' => 'Change Password',
+            'text' => 'บอลเต็ง',
+            'url'  => 'admin/settings',
+            'icon' => 'expeditedssl',
+        ],
+        [
+            'text' => 'ทีเด็ดบอล',
+            'url'  => 'admin/settings',
+            'icon' => 'connectdevelop',
+        ],
+        'ทรรศนะบอล',
+        [
+            'text' => 'rakastep',
             'url'  => 'admin/settings',
             'icon' => 'lock',
         ],
-        
-        'LABELS',
         [
-            'text'       => 'Important',
-            'icon_color' => 'red',
-        ],
-        [
-            'text'       => 'Warning',
-            'icon_color' => 'yellow',
-        ],
-        [
-            'text'       => 'Information',
-            'icon_color' => 'aqua',
+            'text' => 'steptaek',
+            'url'  => 'admin/settings',
+            'icon' => 'lock',
         ],
     ],
 
