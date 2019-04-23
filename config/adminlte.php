@@ -186,19 +186,19 @@ return [
         [
             'text' => 'รวมลิ้งค์',
             'icon_color' => 'blue',
-            'url'  => 'linkball',
+            'url'  => 'content/linkball',
             'icon' => 'link',
         ],
         [
             'text' => 'บอลเต็ง',
             'icon_color' => 'red',
-            'url'  => 'ballteng',
+            'url'  => 'content/ballteng',
             'icon' => 'expeditedssl',
         ],
         [
             'text' => 'ทีเด็ดบอล',
             'icon_color' => 'red',
-            'url'  => 'tded',
+            'url'  => 'content/tded',
             'icon' => 'connectdevelop',
         ],
         [
@@ -224,19 +224,19 @@ return [
         [
             'text'        => 'ผู้ใช้งาน',
             'icon_color' => 'red',
-            'url'         => 'users',
+            'url'         => 'manage/users',
             'icon' => 'user',
         ],
         [
             'text' => 'เซียน',
             'icon_color' => 'green',
-            'url'  => 'zean',
+            'url'  => 'manage/zean',
             'icon' => 'users',
         ],
         [
             'text' => 'ชื่อเว็บ',
             'icon_color' => 'yellow',
-            'url'  => 'allweb',
+            'url'  => 'manage/allweb',
             'icon' => 'file-text',
         ],
 

@@ -11,10 +11,26 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => 'auth','prefix' => 'review'], function(){
+
+});
+
+Route::group(['middleware' => 'auth','prefix' => 'report'], function(){
+    
+});
+
+Route::group(['middleware' => 'auth','prefix' => 'content'], function(){
+    
+});
+
+Route::group(['middleware' => 'auth','prefix' => 'manage'], function(){
+    
+});
