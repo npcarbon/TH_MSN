@@ -23,8 +23,18 @@ Route::group(['middleware' => 'auth','prefix' => 'review'], function(){
 
 });
 
-Route::group(['middleware' => 'auth','prefix' => 'report'], function(){
-    
+Route::group(['prefix' => 'report'], function(){
+    Route::get('/result-register', 'ReportController@result');
+    Route::get('/THCOM', 'ReportController@thcom');
+    Route::get('/THORG', 'ReportController@thorg');
+    Route::get('/duballcup', 'ReportController@duballcup');
+    Route::get('/duballhd', 'ReportController@duballhd');
+    Route::get('/duballmobile', 'ReportController@duballmobile');
+    Route::get('/duballhdfree', 'ReportController@duballhdfree');
+    Route::get('/landingpage', 'ReportController@landingpage');
+    Route::get('/rakastep', 'ReportController@rakastep');
+    Route::get('/steptaek', 'ReportController@steptaek');
+    Route::get('/tdball', 'ReportController@tdball');
 });
 
 Route::group(['middleware' => 'auth','prefix' => 'content'], function(){
